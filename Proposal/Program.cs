@@ -16,7 +16,7 @@ namespace Proposal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Welcome(false));
+            Application.Run(new Welcome(true));
         }
     }
 }

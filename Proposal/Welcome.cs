@@ -67,7 +67,7 @@ namespace Proposal
             labelForgotYourPassword.ForeColor = Color.FromArgb(255, 255, 255);
         }
 
-        private void labelRegister_Click(object sender, EventArgs e)
+        public void labelRegister_Click(object sender, EventArgs e)
         {
             Util.Animate(login1, Util.Effect.Slide, 150, 0);
             if(labelRegister.Text.Equals("Register"))

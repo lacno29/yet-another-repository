@@ -101,7 +101,7 @@ namespace Proposal
                         outfile.WriteLine(textFieldUsername.Text);
                         outfile.WriteLine(textFieldPassword.Text);
                         outfile.WriteLine(textFieldNo.Text.ToUpper());
-                        outfile.WriteLine(0);
+                        outfile.WriteLine(1);
                         outfile.Flush();
                         outfile.Close();
                     }

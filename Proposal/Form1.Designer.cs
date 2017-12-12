@@ -31,17 +31,65 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup1 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem3 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem4 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem4 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem5 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem5 = new DevExpress.Utils.ToolTipItem();
             DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup2 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem6 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem6 = new DevExpress.Utils.ToolTipItem();
             DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation1 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
-            DevExpress.DataAccess.Sql.CustomSqlQuery customSqlQuery1 = new DevExpress.DataAccess.Sql.CustomSqlQuery();
+            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem7 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem7 = new DevExpress.Utils.ToolTipItem();
             this.stylesRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.StylesRibbonPageGroup();
             this.galleryChangeStyleItem1 = new DevExpress.XtraRichEdit.UI.GalleryChangeStyleItem();
             this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
+            this.backstageViewClientControl3 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.recentItemControl2 = new DevExpress.XtraBars.Ribbon.RecentItemControl();
+            this.recentStackPanel4 = new DevExpress.XtraBars.Ribbon.RecentStackPanel();
+            this.recentLabelItem1 = new DevExpress.XtraBars.Ribbon.RecentLabelItem();
+            this.recentStackPanel3 = new DevExpress.XtraBars.Ribbon.RecentStackPanel();
+            this.recentLabelItem2 = new DevExpress.XtraBars.Ribbon.RecentLabelItem();
+            this.recentLabelItem4 = new DevExpress.XtraBars.Ribbon.RecentLabelItem();
             this.backstageViewClientControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
             this.backstageViewClientControl2 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
             this.backstageViewClientControl4 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
-            this.backstageViewClientControl3 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.recentItemControl1 = new DevExpress.XtraBars.Ribbon.RecentItemControl();
+            this.recentControlItemControlContainer2 = new DevExpress.XtraBars.Ribbon.RecentControlItemControlContainer();
+            this.documentViewer1 = new DevExpress.XtraPrinting.Preview.DocumentViewer();
+            this.printingSystem1 = new DevExpress.XtraPrinting.PrintingSystem(this.components);
+            this.printableComponentLink1 = new DevExpress.XtraPrinting.PrintableComponentLink(this.components);
+            this.richEditControl1 = new DevExpress.XtraRichEdit.RichEditControl();
+            this.recentStackPanel2 = new DevExpress.XtraBars.Ribbon.RecentStackPanel();
+            this.recentControlContainerItem3 = new DevExpress.XtraBars.Ribbon.RecentControlContainerItem();
+            this.recentStackPanel1 = new DevExpress.XtraBars.Ribbon.RecentStackPanel();
+            this.recentButtonItem2 = new DevExpress.XtraBars.Ribbon.RecentButtonItem();
             this.backstageViewTabItem1 = new DevExpress.XtraBars.Ribbon.BackstageViewTabItem();
             this.backstageViewTabItem2 = new DevExpress.XtraBars.Ribbon.BackstageViewTabItem();
             this.backstageViewTabItem4 = new DevExpress.XtraBars.Ribbon.BackstageViewTabItem();
@@ -87,7 +135,6 @@
             this.repositoryItemFontEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemFontEdit();
             this.changeFontSizeItem1 = new DevExpress.XtraRichEdit.UI.ChangeFontSizeItem();
             this.repositoryItemRichEditFontSizeEdit1 = new DevExpress.XtraRichEdit.Design.RepositoryItemRichEditFontSizeEdit();
-            this.richEditControl1 = new DevExpress.XtraRichEdit.RichEditControl();
             this.fontSizeIncreaseItem1 = new DevExpress.XtraRichEdit.UI.FontSizeIncreaseItem();
             this.fontSizeDecreaseItem1 = new DevExpress.XtraRichEdit.UI.FontSizeDecreaseItem();
             this.barButtonGroup2 = new DevExpress.XtraBars.BarButtonGroup();
@@ -349,8 +396,6 @@
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.fileRibbonPage1 = new DevExpress.XtraRichEdit.UI.FileRibbonPage();
             this.commonRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.CommonRibbonPageGroup();
@@ -385,42 +430,53 @@
             this.documentViewsRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.DocumentViewsRibbonPageGroup();
             this.showRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.ShowRibbonPageGroup();
             this.zoomRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.ZoomRibbonPageGroup();
-            this.ribbonPageGroup8 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
+            this.passProDataSet = new Proposal.PassProDataSet();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.colstrProposalID = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colstrFileName = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colstrPriority = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colstrStatus = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colintPercent = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.coldateStart = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.coldateDue = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.coldateCompleted = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colstrFlag = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colstrRemark = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colProposalID = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colFilename = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colStatus = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colSubmittedby = new DevExpress.XtraGrid.Columns.GridColumn();
             this.richEditBarController1 = new DevExpress.XtraRichEdit.UI.RichEditBarController();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.recentControlContainerItem2 = new DevExpress.XtraBars.Ribbon.RecentControlContainerItem();
+            this.recentControlContainerItem1 = new DevExpress.XtraBars.Ribbon.RecentControlContainerItem();
+            this.recentControlItemControlContainer1 = new DevExpress.XtraBars.Ribbon.RecentControlItemControlContainer();
+            this.recentButtonItem1 = new DevExpress.XtraBars.Ribbon.RecentButtonItem();
+            this.passProDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.recentLabelItem3 = new DevExpress.XtraBars.Ribbon.RecentLabelItem();
+            this.recentStackPanel5 = new DevExpress.XtraBars.Ribbon.RecentStackPanel();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
+            this.backstageViewClientControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.recentItemControl2)).BeginInit();
+            this.backstageViewClientControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.recentItemControl1)).BeginInit();
+            this.recentItemControl1.SuspendLayout();
+            this.recentControlItemControlContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.printingSystem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemFontEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemRichEditFontSizeEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemBorderLineStyle1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemBorderLineWeight1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemFloatingObjectOutlineWeight1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passProDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.richEditBarController1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.passProDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // stylesRibbonPageGroup1
@@ -720,7 +776,7 @@
             this.barButtonItem21,
             this.barButtonItem22});
             this.ribbon.Location = new System.Drawing.Point(0, 0);
-            this.ribbon.MaxItemId = 275;
+            this.ribbon.MaxItemId = 276;
             this.ribbon.Name = "ribbon";
             this.ribbon.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
             this.headerFooterToolsRibbonPageCategory1,
@@ -748,10 +804,10 @@
             // 
             // backstageViewControl1
             // 
+            this.backstageViewControl1.Controls.Add(this.backstageViewClientControl3);
             this.backstageViewControl1.Controls.Add(this.backstageViewClientControl1);
             this.backstageViewControl1.Controls.Add(this.backstageViewClientControl2);
             this.backstageViewControl1.Controls.Add(this.backstageViewClientControl4);
-            this.backstageViewControl1.Controls.Add(this.backstageViewClientControl3);
             this.backstageViewControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.backstageViewControl1.Items.Add(this.backstageViewTabItem1);
             this.backstageViewControl1.Items.Add(this.backstageViewTabItem2);
@@ -763,45 +819,362 @@
             this.backstageViewControl1.Location = new System.Drawing.Point(0, 147);
             this.backstageViewControl1.Name = "backstageViewControl1";
             this.backstageViewControl1.OwnerControl = this.ribbon;
-            this.backstageViewControl1.SelectedTab = this.backstageViewTabItem1;
-            this.backstageViewControl1.SelectedTabIndex = 0;
-            this.backstageViewControl1.Size = new System.Drawing.Size(1166, 552);
+            this.backstageViewControl1.SelectedTab = this.backstageViewTabItem3;
+            this.backstageViewControl1.SelectedTabIndex = 4;
+            this.backstageViewControl1.Size = new System.Drawing.Size(1166, 523);
             this.backstageViewControl1.TabIndex = 6;
+            // 
+            // backstageViewClientControl3
+            // 
+            this.backstageViewClientControl3.Controls.Add(this.comboBox2);
+            this.backstageViewClientControl3.Controls.Add(this.label7);
+            this.backstageViewClientControl3.Controls.Add(this.label6);
+            this.backstageViewClientControl3.Controls.Add(this.label8);
+            this.backstageViewClientControl3.Controls.Add(this.label5);
+            this.backstageViewClientControl3.Controls.Add(this.pictureBox1);
+            this.backstageViewClientControl3.Controls.Add(this.recentItemControl2);
+            this.backstageViewClientControl3.Location = new System.Drawing.Point(133, 63);
+            this.backstageViewClientControl3.Name = "backstageViewClientControl3";
+            this.backstageViewClientControl3.Size = new System.Drawing.Size(1032, 459);
+            this.backstageViewClientControl3.TabIndex = 3;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Caramel",
+            "Money Twins",
+            "Lilian",
+            "The Asphalt World",
+            "iMaginary",
+            "Black",
+            "Blue",
+            "Coffee",
+            "Liquid Sky",
+            "London Liquid Sky",
+            "Glass Oceans",
+            "Stardust",
+            "Xmas 2008 Blue",
+            "Valentine",
+            "McSkin",
+            "Summer 2008",
+            "Pumpkin",
+            "Dark Side",
+            "Springtime",
+            "Darkroom",
+            "Foggy",
+            "High Contrast",
+            "Seven",
+            "Seven Classic",
+            "Sharp",
+            "Sharp Plus",
+            "DevExpress Style",
+            "Office 2007 Blue",
+            "Office 2007 Black",
+            "Office 2007 Silver",
+            "Office 2007 Green",
+            "Office 2007 Pink",
+            "Office 2010 Blue",
+            "Office 2010 Black",
+            "Office 2010 Silver"});
+            this.comboBox2.Location = new System.Drawing.Point(34, 295);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(298, 25);
+            this.comboBox2.TabIndex = 4;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(461, 330);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(162, 126);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Samonte, Ivan Alec A.\r\nCollado, Mae Anne F.\r\nLacno, Sherwin S.\r\nAlcala, Michael M" +
+    ".\r\nCasida, Dianne Kate N.\r\nMaregmen, Vince F.\r\n";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(29, 253);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(79, 30);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Theme:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(425, 295);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(118, 30);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Developers:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(555, 209);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(190, 60);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Pass Pro\r\nManagement Studio";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(430, 161);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(119, 108);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // recentItemControl2
+            // 
+            this.recentItemControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.recentItemControl2.DefaultContentPanel = this.recentStackPanel4;
+            this.recentItemControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.recentItemControl2.Location = new System.Drawing.Point(0, 0);
+            this.recentItemControl2.MainPanel = this.recentStackPanel3;
+            this.recentItemControl2.Name = "recentItemControl2";
+            this.recentItemControl2.SelectedTab = null;
+            this.recentItemControl2.Size = new System.Drawing.Size(1032, 459);
+            this.recentItemControl2.SplitterPosition = 400;
+            this.recentItemControl2.TabIndex = 3;
+            this.recentItemControl2.Title = "Account";
+            // 
+            // recentStackPanel4
+            // 
+            this.recentStackPanel4.Items.AddRange(new DevExpress.XtraBars.Ribbon.RecentItemBase[] {
+            this.recentLabelItem1});
+            this.recentStackPanel4.Name = "recentStackPanel4";
+            this.recentStackPanel4.SelectedItem = null;
+            // 
+            // recentLabelItem1
+            // 
+            this.recentLabelItem1.Appearances.ItemNormal.Font = new System.Drawing.Font("Segoe UI Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recentLabelItem1.Appearances.ItemNormal.Options.UseFont = true;
+            this.recentLabelItem1.Caption = "Product Information";
+            this.recentLabelItem1.Name = "recentLabelItem1";
+            // 
+            // recentStackPanel3
+            // 
+            this.recentStackPanel3.Items.AddRange(new DevExpress.XtraBars.Ribbon.RecentItemBase[] {
+            this.recentLabelItem2,
+            this.recentLabelItem4});
+            this.recentStackPanel3.Name = "recentStackPanel3";
+            this.recentStackPanel3.SelectedItem = null;
+            // 
+            // recentLabelItem2
+            // 
+            this.recentLabelItem2.Appearances.ItemNormal.Font = new System.Drawing.Font("Segoe UI Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recentLabelItem2.Appearances.ItemNormal.Options.UseFont = true;
+            this.recentLabelItem2.Caption = "User Information";
+            this.recentLabelItem2.Name = "recentLabelItem2";
+            // 
+            // recentLabelItem4
+            // 
+            this.recentLabelItem4.Appearances.ItemNormal.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recentLabelItem4.Appearances.ItemNormal.Options.UseFont = true;
+            this.recentLabelItem4.Caption = "Sample";
+            this.recentLabelItem4.Name = "recentLabelItem4";
             // 
             // backstageViewClientControl1
             // 
             this.backstageViewClientControl1.Location = new System.Drawing.Point(133, 63);
             this.backstageViewClientControl1.Name = "backstageViewClientControl1";
-            this.backstageViewClientControl1.Size = new System.Drawing.Size(1032, 488);
+            this.backstageViewClientControl1.Size = new System.Drawing.Size(1032, 459);
             this.backstageViewClientControl1.TabIndex = 1;
             // 
             // backstageViewClientControl2
             // 
             this.backstageViewClientControl2.Location = new System.Drawing.Point(133, 63);
             this.backstageViewClientControl2.Name = "backstageViewClientControl2";
-            this.backstageViewClientControl2.Size = new System.Drawing.Size(1032, 488);
+            this.backstageViewClientControl2.Size = new System.Drawing.Size(1032, 459);
             this.backstageViewClientControl2.TabIndex = 2;
             // 
             // backstageViewClientControl4
             // 
+            this.backstageViewClientControl4.Controls.Add(this.textBox1);
+            this.backstageViewClientControl4.Controls.Add(this.label4);
+            this.backstageViewClientControl4.Controls.Add(this.comboBox1);
+            this.backstageViewClientControl4.Controls.Add(this.label3);
+            this.backstageViewClientControl4.Controls.Add(this.label2);
+            this.backstageViewClientControl4.Controls.Add(this.label1);
+            this.backstageViewClientControl4.Controls.Add(this.recentItemControl1);
             this.backstageViewClientControl4.Location = new System.Drawing.Point(133, 63);
             this.backstageViewClientControl4.Name = "backstageViewClientControl4";
-            this.backstageViewClientControl4.Size = new System.Drawing.Size(1032, 488);
+            this.backstageViewClientControl4.Size = new System.Drawing.Size(1032, 459);
             this.backstageViewClientControl4.TabIndex = 4;
             // 
-            // backstageViewClientControl3
+            // textBox1
             // 
-            this.backstageViewClientControl3.Location = new System.Drawing.Point(133, 63);
-            this.backstageViewClientControl3.Name = "backstageViewClientControl3";
-            this.backstageViewClientControl3.Size = new System.Drawing.Size(1032, 488);
-            this.backstageViewClientControl3.TabIndex = 3;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(30, 286);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(315, 29);
+            this.textBox1.TabIndex = 17;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semilight", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(25, 243);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(101, 30);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Filename:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.Color.Transparent;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(30, 414);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(315, 29);
+            this.comboBox1.Sorted = true;
+            this.comboBox1.TabIndex = 15;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semilight", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(25, 361);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(138, 30);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Submitted to:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(125, 149);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(220, 17);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Upload the document to the database.";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semilight", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(123, 107);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(181, 30);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Upload Document";
+            // 
+            // recentItemControl1
+            // 
+            this.recentItemControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.recentItemControl1.Controls.Add(this.recentControlItemControlContainer2);
+            this.recentItemControl1.DefaultContentPanel = this.recentStackPanel2;
+            this.recentItemControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.recentItemControl1.Location = new System.Drawing.Point(0, 0);
+            this.recentItemControl1.MainPanel = this.recentStackPanel1;
+            this.recentItemControl1.Name = "recentItemControl1";
+            this.recentItemControl1.SelectedTab = null;
+            this.recentItemControl1.ShowSplitter = false;
+            this.recentItemControl1.Size = new System.Drawing.Size(1032, 459);
+            this.recentItemControl1.SplitterPosition = 400;
+            this.recentItemControl1.TabIndex = 0;
+            this.recentItemControl1.Title = "Upload";
+            // 
+            // recentControlItemControlContainer2
+            // 
+            this.recentControlItemControlContainer2.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.recentControlItemControlContainer2.Appearance.Options.UseBackColor = true;
+            this.recentControlItemControlContainer2.Controls.Add(this.documentViewer1);
+            this.recentControlItemControlContainer2.Name = "recentControlItemControlContainer2";
+            this.recentControlItemControlContainer2.Size = new System.Drawing.Size(567, 500);
+            this.recentControlItemControlContainer2.TabIndex = 1;
+            // 
+            // documentViewer1
+            // 
+            this.documentViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.documentViewer1.DocumentSource = this.printingSystem1;
+            this.documentViewer1.HorizontalScrollBarVisibility = DevExpress.XtraEditors.ViewInfo.ScrollBarVisibility.Hidden;
+            this.documentViewer1.IsMetric = false;
+            this.documentViewer1.Location = new System.Drawing.Point(0, 0);
+            this.documentViewer1.Name = "documentViewer1";
+            this.documentViewer1.Size = new System.Drawing.Size(567, 500);
+            this.documentViewer1.TabIndex = 0;
+            this.documentViewer1.VerticalScrollBarVisibility = DevExpress.XtraEditors.ViewInfo.ScrollBarVisibility.Hidden;
+            // 
+            // printingSystem1
+            // 
+            this.printingSystem1.Links.AddRange(new object[] {
+            this.printableComponentLink1});
+            // 
+            // printableComponentLink1
+            // 
+            this.printableComponentLink1.Component = this.richEditControl1;
+            this.printableComponentLink1.PrintingSystemBase = this.printingSystem1;
+            // 
+            // richEditControl1
+            // 
+            this.richEditControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richEditControl1.Location = new System.Drawing.Point(0, 0);
+            this.richEditControl1.MenuManager = this.ribbon;
+            this.richEditControl1.Name = "richEditControl1";
+            this.richEditControl1.Options.DocumentSaveOptions.CurrentFileName = "Document1";
+            this.richEditControl1.Options.DocumentSaveOptions.CurrentFormat = DevExpress.XtraRichEdit.DocumentFormat.OpenXml;
+            this.richEditControl1.Options.DocumentSaveOptions.DefaultFileName = "Document1";
+            this.richEditControl1.Options.DocumentSaveOptions.DefaultFormat = DevExpress.XtraRichEdit.DocumentFormat.OpenXml;
+            this.richEditControl1.Size = new System.Drawing.Size(723, 523);
+            this.richEditControl1.TabIndex = 3;
+            // 
+            // recentStackPanel2
+            // 
+            this.recentStackPanel2.Items.AddRange(new DevExpress.XtraBars.Ribbon.RecentItemBase[] {
+            this.recentControlContainerItem3});
+            this.recentStackPanel2.Name = "recentStackPanel2";
+            this.recentStackPanel2.SelectedItem = null;
+            // 
+            // recentControlContainerItem3
+            // 
+            this.recentControlContainerItem3.ClientHeight = 500;
+            this.recentControlContainerItem3.ControlContainer = this.recentControlItemControlContainer2;
+            this.recentControlContainerItem3.Name = "recentControlContainerItem3";
+            // 
+            // recentStackPanel1
+            // 
+            this.recentStackPanel1.Items.AddRange(new DevExpress.XtraBars.Ribbon.RecentItemBase[] {
+            this.recentButtonItem2});
+            this.recentStackPanel1.Name = "recentStackPanel1";
+            this.recentStackPanel1.SelectedItem = null;
+            // 
+            // recentButtonItem2
+            // 
+            this.recentButtonItem2.AutoSize = false;
+            this.recentButtonItem2.Caption = "Upload";
+            this.recentButtonItem2.Glyph = ((System.Drawing.Image)(resources.GetObject("recentButtonItem2.Glyph")));
+            this.recentButtonItem2.Name = "recentButtonItem2";
+            this.recentButtonItem2.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.recentButtonItem2.Size = new System.Drawing.Size(82, 90);
+            toolTipTitleItem1.Text = "Upload";
+            toolTipItem1.LeftIndent = 6;
+            toolTipItem1.Text = "Upload the current document to the database";
+            superToolTip1.Items.Add(toolTipTitleItem1);
+            superToolTip1.Items.Add(toolTipItem1);
+            this.recentButtonItem2.SuperTip = superToolTip1;
+            this.recentButtonItem2.ItemClick += new DevExpress.XtraBars.Ribbon.RecentItemEventHandler(this.recentButtonItem2_ItemClick);
             // 
             // backstageViewTabItem1
             // 
-            this.backstageViewTabItem1.Caption = "Properties";
+            this.backstageViewTabItem1.Caption = "Info";
             this.backstageViewTabItem1.ContentControl = this.backstageViewClientControl1;
             this.backstageViewTabItem1.Name = "backstageViewTabItem1";
-            this.backstageViewTabItem1.Selected = true;
             // 
             // backstageViewTabItem2
             // 
@@ -811,7 +1184,7 @@
             // 
             // backstageViewTabItem4
             // 
-            this.backstageViewTabItem4.Caption = "Print";
+            this.backstageViewTabItem4.Caption = "Upload";
             this.backstageViewTabItem4.ContentControl = this.backstageViewClientControl4;
             this.backstageViewTabItem4.Name = "backstageViewTabItem4";
             // 
@@ -824,6 +1197,7 @@
             this.backstageViewTabItem3.Caption = "Account";
             this.backstageViewTabItem3.ContentControl = this.backstageViewClientControl3;
             this.backstageViewTabItem3.Name = "backstageViewTabItem3";
+            this.backstageViewTabItem3.Selected = true;
             // 
             // backstageViewButtonItem1
             // 
@@ -844,6 +1218,7 @@
             this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
             this.barButtonItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
             this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
             // barButtonItem2
             // 
@@ -852,6 +1227,7 @@
             this.barButtonItem2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.Image")));
             this.barButtonItem2.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.LargeImage")));
             this.barButtonItem2.Name = "barButtonItem2";
+            this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
             // 
             // barButtonItem3
             // 
@@ -860,6 +1236,7 @@
             this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
             this.barButtonItem3.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
             this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barButtonItem4
             // 
@@ -868,22 +1245,42 @@
             this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
             this.barButtonItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
             this.barButtonItem4.Name = "barButtonItem4";
+            toolTipTitleItem2.Text = "New Proposal";
+            toolTipItem2.LeftIndent = 6;
+            toolTipItem2.Text = "Lets you create another proposal from a blank template";
+            superToolTip2.Items.Add(toolTipTitleItem2);
+            superToolTip2.Items.Add(toolTipItem2);
+            this.barButtonItem4.SuperTip = superToolTip2;
             // 
             // barButtonItem5
             // 
-            this.barButtonItem5.Caption = "Save";
+            this.barButtonItem5.Caption = "Upload";
             this.barButtonItem5.Id = 7;
             this.barButtonItem5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.Image")));
             this.barButtonItem5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
             this.barButtonItem5.Name = "barButtonItem5";
+            toolTipTitleItem3.Text = "Upload Proposal";
+            toolTipItem3.LeftIndent = 6;
+            toolTipItem3.Text = "Upload the currently working proposal to database.";
+            superToolTip3.Items.Add(toolTipTitleItem3);
+            superToolTip3.Items.Add(toolTipItem3);
+            this.barButtonItem5.SuperTip = superToolTip3;
+            this.barButtonItem5.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem5_ItemClick);
             // 
             // barButtonItem6
             // 
-            this.barButtonItem6.Caption = "Save As";
+            this.barButtonItem6.Caption = "Re-Upload";
             this.barButtonItem6.Id = 8;
             this.barButtonItem6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.Image")));
             this.barButtonItem6.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
             this.barButtonItem6.Name = "barButtonItem6";
+            toolTipTitleItem4.Text = "Re-Upload";
+            toolTipItem4.LeftIndent = 6;
+            toolTipItem4.Text = "Update an existing proposal in the database with the current working one.";
+            superToolTip4.Items.Add(toolTipTitleItem4);
+            superToolTip4.Items.Add(toolTipItem4);
+            this.barButtonItem6.SuperTip = superToolTip4;
+            this.barButtonItem6.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem6_ItemClick);
             // 
             // barButtonItem7
             // 
@@ -892,6 +1289,12 @@
             this.barButtonItem7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.Image")));
             this.barButtonItem7.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.LargeImage")));
             this.barButtonItem7.Name = "barButtonItem7";
+            toolTipTitleItem5.Text = "Delete Proposal";
+            toolTipItem5.LeftIndent = 6;
+            toolTipItem5.Text = "This will directly delete your proposal from database.";
+            superToolTip5.Items.Add(toolTipTitleItem5);
+            superToolTip5.Items.Add(toolTipItem5);
+            this.barButtonItem7.SuperTip = superToolTip5;
             // 
             // barSubItem1
             // 
@@ -956,6 +1359,7 @@
             this.barButtonItem10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.Image")));
             this.barButtonItem10.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.LargeImage")));
             this.barButtonItem10.Name = "barButtonItem10";
+            this.barButtonItem10.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem10_ItemClick);
             // 
             // barButtonItem13
             // 
@@ -1093,15 +1497,6 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.repositoryItemRichEditFontSizeEdit1.Control = this.richEditControl1;
             this.repositoryItemRichEditFontSizeEdit1.Name = "repositoryItemRichEditFontSizeEdit1";
-            // 
-            // richEditControl1
-            // 
-            this.richEditControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richEditControl1.Location = new System.Drawing.Point(0, 0);
-            this.richEditControl1.MenuManager = this.ribbon;
-            this.richEditControl1.Name = "richEditControl1";
-            this.richEditControl1.Size = new System.Drawing.Size(403, 529);
-            this.richEditControl1.TabIndex = 3;
             // 
             // fontSizeIncreaseItem1
             // 
@@ -2442,6 +2837,13 @@
             this.barButtonItem16.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem16.ImageOptions.Image")));
             this.barButtonItem16.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem16.ImageOptions.LargeImage")));
             this.barButtonItem16.Name = "barButtonItem16";
+            toolTipTitleItem6.Text = "Refresh";
+            toolTipItem6.LeftIndent = 6;
+            toolTipItem6.Text = "Refresh the proposal list.";
+            superToolTip6.Items.Add(toolTipTitleItem6);
+            superToolTip6.Items.Add(toolTipItem6);
+            this.barButtonItem16.SuperTip = superToolTip6;
+            this.barButtonItem16.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem16_ItemClick);
             // 
             // barSubItem6
             // 
@@ -2665,8 +3067,6 @@
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup3,
             this.ribbonPageGroup1,
-            this.ribbonPageGroup4,
-            this.ribbonPageGroup6,
             this.ribbonPageGroup5});
             this.ribbonPage1.Name = "ribbonPage1";
             this.ribbonPage1.Text = "Home";
@@ -2690,25 +3090,6 @@
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             this.ribbonPageGroup1.ShowCaptionButton = false;
             this.ribbonPageGroup1.Text = "Change Status";
-            // 
-            // ribbonPageGroup4
-            // 
-            this.ribbonPageGroup4.ItemLinks.Add(this.barSubItem2);
-            this.ribbonPageGroup4.ItemLinks.Add(this.barSubItem3);
-            this.ribbonPageGroup4.ItemLinks.Add(this.barSubItem4);
-            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
-            this.ribbonPageGroup4.ShowCaptionButton = false;
-            this.ribbonPageGroup4.Text = "Views";
-            // 
-            // ribbonPageGroup6
-            // 
-            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem13);
-            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem14);
-            this.ribbonPageGroup6.ItemLinks.Add(this.barSubItem5);
-            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem15);
-            this.ribbonPageGroup6.Name = "ribbonPageGroup6";
-            this.ribbonPageGroup6.ShowCaptionButton = false;
-            this.ribbonPageGroup6.Text = "Print and Export";
             // 
             // ribbonPageGroup5
             // 
@@ -2948,8 +3329,7 @@
             this.viewRibbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.documentViewsRibbonPageGroup1,
             this.showRibbonPageGroup1,
-            this.zoomRibbonPageGroup1,
-            this.ribbonPageGroup8});
+            this.zoomRibbonPageGroup1});
             this.viewRibbonPage1.Name = "viewRibbonPage1";
             // 
             // documentViewsRibbonPageGroup1
@@ -2971,16 +3351,9 @@
             this.zoomRibbonPageGroup1.ItemLinks.Add(this.zoomInItem1);
             this.zoomRibbonPageGroup1.Name = "zoomRibbonPageGroup1";
             // 
-            // ribbonPageGroup8
-            // 
-            this.ribbonPageGroup8.ItemLinks.Add(this.barSubItem6);
-            this.ribbonPageGroup8.Name = "ribbonPageGroup8";
-            this.ribbonPageGroup8.ShowCaptionButton = false;
-            this.ribbonPageGroup8.Text = "Color Scheme";
-            // 
             // ribbonStatusBar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 676);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 670);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
             this.ribbonStatusBar.Size = new System.Drawing.Size(1166, 23);
@@ -3009,136 +3382,73 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.DataMember = "Query";
-            this.gridControl1.DataSource = this.sqlDataSource1;
+            this.gridControl1.DataSource = this.passProDataSet;
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.MenuManager = this.ribbon;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(751, 529);
+            this.gridControl1.Size = new System.Drawing.Size(431, 523);
             this.gridControl1.TabIndex = 2;
             this.gridControl1.UseEmbeddedNavigator = true;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
-            // sqlDataSource1
+            // passProDataSet
             // 
-            this.sqlDataSource1.ConnectionName = "sherwin.PassPro.dbo";
-            this.sqlDataSource1.Name = "sqlDataSource1";
-            customSqlQuery1.Name = "Query";
-            customSqlQuery1.Sql = "Select * from tblProposals";
-            this.sqlDataSource1.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
-            customSqlQuery1});
-            this.sqlDataSource1.ResultSchemaSerializable = resources.GetString("sqlDataSource1.ResultSchemaSerializable");
+            this.passProDataSet.DataSetName = "PassProDataSet";
+            this.passProDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colstrProposalID,
-            this.colstrFileName,
-            this.colstrPriority,
-            this.colstrStatus,
-            this.colintPercent,
-            this.coldateStart,
-            this.coldateDue,
-            this.coldateCompleted,
-            this.colstrFlag,
-            this.colstrRemark});
+            this.colProposalID,
+            this.colFilename,
+            this.colStatus,
+            this.colSubmittedby});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.Editable = false;
+            this.gridView1.OptionsBehavior.ReadOnly = true;
+            this.gridView1.OptionsFind.AlwaysVisible = true;
             this.gridView1.OptionsView.ShowFooter = true;
             this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridView1_RowClick);
             // 
-            // colstrProposalID
+            // colProposalID
             // 
-            this.colstrProposalID.Caption = "Proposal ID";
-            this.colstrProposalID.FieldName = "strProposalID";
-            this.colstrProposalID.Name = "colstrProposalID";
-            this.colstrProposalID.Visible = true;
-            this.colstrProposalID.VisibleIndex = 0;
-            this.colstrProposalID.Width = 73;
+            this.colProposalID.Caption = "ID";
+            this.colProposalID.FieldName = "intProposalID";
+            this.colProposalID.Name = "colProposalID";
+            this.colProposalID.Visible = true;
+            this.colProposalID.VisibleIndex = 0;
+            this.colProposalID.Width = 40;
             // 
-            // colstrFileName
+            // colFilename
             // 
-            this.colstrFileName.Caption = "File Name";
-            this.colstrFileName.FieldName = "strFileName";
-            this.colstrFileName.Name = "colstrFileName";
-            this.colstrFileName.Visible = true;
-            this.colstrFileName.VisibleIndex = 1;
-            this.colstrFileName.Width = 73;
+            this.colFilename.Caption = "Filename";
+            this.colFilename.FieldName = "strFilename";
+            this.colFilename.Name = "colFilename";
+            this.colFilename.Visible = true;
+            this.colFilename.VisibleIndex = 1;
+            this.colFilename.Width = 121;
             // 
-            // colstrPriority
+            // colStatus
             // 
-            this.colstrPriority.Caption = "Priority";
-            this.colstrPriority.FieldName = "strPriority";
-            this.colstrPriority.Name = "colstrPriority";
-            this.colstrPriority.Visible = true;
-            this.colstrPriority.VisibleIndex = 2;
-            this.colstrPriority.Width = 73;
+            this.colStatus.Caption = "Status";
+            this.colStatus.FieldName = "strStatus";
+            this.colStatus.Name = "colStatus";
+            this.colStatus.Visible = true;
+            this.colStatus.VisibleIndex = 2;
+            this.colStatus.Width = 100;
             // 
-            // colstrStatus
+            // colSubmittedby
             // 
-            this.colstrStatus.Caption = "Status";
-            this.colstrStatus.FieldName = "strStatus";
-            this.colstrStatus.Name = "colstrStatus";
-            this.colstrStatus.Visible = true;
-            this.colstrStatus.VisibleIndex = 3;
-            this.colstrStatus.Width = 73;
-            // 
-            // colintPercent
-            // 
-            this.colintPercent.Caption = "Percent";
-            this.colintPercent.FieldName = "intPercent";
-            this.colintPercent.Name = "colintPercent";
-            this.colintPercent.Visible = true;
-            this.colintPercent.VisibleIndex = 4;
-            this.colintPercent.Width = 73;
-            // 
-            // coldateStart
-            // 
-            this.coldateStart.Caption = "Date Start";
-            this.coldateStart.FieldName = "dateStart";
-            this.coldateStart.Name = "coldateStart";
-            this.coldateStart.Visible = true;
-            this.coldateStart.VisibleIndex = 5;
-            this.coldateStart.Width = 73;
-            // 
-            // coldateDue
-            // 
-            this.coldateDue.Caption = "Date Due";
-            this.coldateDue.FieldName = "dateDue";
-            this.coldateDue.Name = "coldateDue";
-            this.coldateDue.Visible = true;
-            this.coldateDue.VisibleIndex = 6;
-            this.coldateDue.Width = 73;
-            // 
-            // coldateCompleted
-            // 
-            this.coldateCompleted.Caption = "Date Completed";
-            this.coldateCompleted.FieldName = "dateCompleted";
-            this.coldateCompleted.Name = "coldateCompleted";
-            this.coldateCompleted.Visible = true;
-            this.coldateCompleted.VisibleIndex = 7;
-            this.coldateCompleted.Width = 99;
-            // 
-            // colstrFlag
-            // 
-            this.colstrFlag.Caption = "Flag";
-            this.colstrFlag.FieldName = "strFlag";
-            this.colstrFlag.Name = "colstrFlag";
-            this.colstrFlag.Visible = true;
-            this.colstrFlag.VisibleIndex = 8;
-            this.colstrFlag.Width = 59;
-            // 
-            // colstrRemark
-            // 
-            this.colstrRemark.Caption = "Remark";
-            this.colstrRemark.FieldName = "strRemark";
-            this.colstrRemark.Name = "colstrRemark";
-            this.colstrRemark.Visible = true;
-            this.colstrRemark.VisibleIndex = 9;
-            this.colstrRemark.Width = 61;
+            this.colSubmittedby.Caption = "Submitted by";
+            this.colSubmittedby.Name = "colSubmittedby";
+            this.colSubmittedby.Visible = true;
+            this.colSubmittedby.VisibleIndex = 3;
+            this.colSubmittedby.Width = 149;
             // 
             // richEditBarController1
             // 
@@ -3390,8 +3700,8 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.richEditControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1166, 529);
-            this.splitContainerControl1.SplitterPosition = 751;
+            this.splitContainerControl1.Size = new System.Drawing.Size(1166, 523);
+            this.splitContainerControl1.SplitterPosition = 431;
             this.splitContainerControl1.TabIndex = 8;
             this.splitContainerControl1.Text = "splitContainerControl1";
             // 
@@ -3405,14 +3715,68 @@
             this.ribbonPageGroup7.Name = "ribbonPageGroup7";
             this.ribbonPageGroup7.Text = "ribbonPageGroup7";
             // 
+            // recentControlContainerItem2
+            // 
+            this.recentControlContainerItem2.ClientHeight = 198;
+            this.recentControlContainerItem2.Name = "recentControlContainerItem2";
+            // 
+            // recentControlContainerItem1
+            // 
+            this.recentControlContainerItem1.ControlContainer = this.recentControlItemControlContainer1;
+            this.recentControlContainerItem1.Name = "recentControlContainerItem1";
+            // 
+            // recentControlItemControlContainer1
+            // 
+            this.recentControlItemControlContainer1.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.recentControlItemControlContainer1.Appearance.Options.UseBackColor = true;
+            this.recentControlItemControlContainer1.Name = "recentControlItemControlContainer1";
+            this.recentControlItemControlContainer1.Size = new System.Drawing.Size(581, 20);
+            this.recentControlItemControlContainer1.TabIndex = 1;
+            // 
+            // recentButtonItem1
+            // 
+            this.recentButtonItem1.Caption = "Upload";
+            this.recentButtonItem1.Glyph = ((System.Drawing.Image)(resources.GetObject("recentButtonItem1.Glyph")));
+            this.recentButtonItem1.Name = "recentButtonItem1";
+            this.recentButtonItem1.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.recentButtonItem1.Size = new System.Drawing.Size(82, 90);
+            toolTipTitleItem7.Text = "Upload";
+            toolTipItem7.LeftIndent = 6;
+            toolTipItem7.Text = "Upload the document to the database.";
+            superToolTip7.Items.Add(toolTipTitleItem7);
+            superToolTip7.Items.Add(toolTipItem7);
+            this.recentButtonItem1.SuperTip = superToolTip7;
+            // 
+            // passProDataSetBindingSource
+            // 
+            this.passProDataSetBindingSource.DataSource = this.passProDataSet;
+            this.passProDataSetBindingSource.Position = 0;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // recentLabelItem3
+            // 
+            this.recentLabelItem3.Appearances.ItemNormal.Font = new System.Drawing.Font("Segoe UI Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recentLabelItem3.Appearances.ItemNormal.Options.UseFont = true;
+            this.recentLabelItem3.Caption = "User Information";
+            this.recentLabelItem3.Name = "recentLabelItem3";
+            this.recentLabelItem3.Style = DevExpress.XtraBars.Ribbon.RecentLabelStyles.Large;
+            // 
+            // recentStackPanel5
+            // 
+            this.recentStackPanel5.Name = "recentStackPanel5";
+            this.recentStackPanel5.SelectedItem = null;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1166, 699);
+            this.ClientSize = new System.Drawing.Size(1166, 693);
             this.Controls.Add(this.splitContainerControl1);
-            this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.backstageViewControl1);
+            this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbon);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -3425,16 +3789,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).EndInit();
             this.backstageViewControl1.ResumeLayout(false);
+            this.backstageViewClientControl3.ResumeLayout(false);
+            this.backstageViewClientControl3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.recentItemControl2)).EndInit();
+            this.backstageViewClientControl4.ResumeLayout(false);
+            this.backstageViewClientControl4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.recentItemControl1)).EndInit();
+            this.recentItemControl1.ResumeLayout(false);
+            this.recentControlItemControlContainer2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.printingSystem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemFontEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemRichEditFontSizeEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemBorderLineStyle1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemBorderLineWeight1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemFloatingObjectOutlineWeight1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passProDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.richEditBarController1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.passProDataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3462,7 +3838,6 @@
         private DevExpress.XtraBars.BarSubItem barSubItem3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem11;
         private DevExpress.XtraBars.BarButtonItem barButtonItem12;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup5;
         private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
         private DevExpress.XtraBars.BarSubItem barSubItem4;
@@ -3472,7 +3847,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem14;
         private DevExpress.XtraBars.BarSubItem barSubItem5;
         private DevExpress.XtraBars.BarButtonItem barButtonItem15;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup6;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraRichEdit.RichEditControl richEditControl1;
@@ -3783,18 +4157,7 @@
         private DevExpress.XtraBars.Ribbon.BackstageViewControl backstageViewControl1;
         private DevExpress.XtraBars.Ribbon.BackstageViewClientControl backstageViewClientControl1;
         private DevExpress.XtraBars.Ribbon.BackstageViewTabItem backstageViewTabItem1;
-        private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
         private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
-        private DevExpress.XtraGrid.Columns.GridColumn colstrProposalID;
-        private DevExpress.XtraGrid.Columns.GridColumn colstrFileName;
-        private DevExpress.XtraGrid.Columns.GridColumn colstrPriority;
-        private DevExpress.XtraGrid.Columns.GridColumn colstrStatus;
-        private DevExpress.XtraGrid.Columns.GridColumn colintPercent;
-        private DevExpress.XtraGrid.Columns.GridColumn coldateStart;
-        private DevExpress.XtraGrid.Columns.GridColumn coldateDue;
-        private DevExpress.XtraGrid.Columns.GridColumn coldateCompleted;
-        private DevExpress.XtraGrid.Columns.GridColumn colstrFlag;
-        private DevExpress.XtraGrid.Columns.GridColumn colstrRemark;
         private DevExpress.XtraBars.BarButtonItem barButtonItem16;
         private DevExpress.XtraBars.Ribbon.BackstageViewClientControl backstageViewClientControl2;
         private DevExpress.XtraBars.Ribbon.BackstageViewClientControl backstageViewClientControl3;
@@ -3808,7 +4171,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup7;
         private DevExpress.XtraBars.BarSubItem barSubItem6;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup8;
         private DevExpress.XtraBars.BarButtonItem barButtonItem20;
         private DevExpress.XtraBars.BarButtonItem barButtonItem21;
         private DevExpress.XtraBars.BarButtonItem barButtonItem22;
@@ -3816,5 +4178,45 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem18;
         private DevExpress.XtraBars.BarButtonItem barButtonItem19;
         private DevExpress.XtraBars.BarToggleSwitchItem barToggleSwitchItem1;
+        private DevExpress.XtraGrid.Columns.GridColumn colFilename;
+        private DevExpress.XtraGrid.Columns.GridColumn colStatus;
+        private DevExpress.XtraGrid.Columns.GridColumn colSubmittedby;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private DevExpress.XtraBars.Ribbon.RecentItemControl recentItemControl1;
+        private DevExpress.XtraBars.Ribbon.RecentStackPanel recentStackPanel2;
+        private DevExpress.XtraBars.Ribbon.RecentStackPanel recentStackPanel1;
+        private DevExpress.XtraBars.Ribbon.RecentControlContainerItem recentControlContainerItem2;
+        private DevExpress.XtraBars.Ribbon.RecentControlContainerItem recentControlContainerItem1;
+        private DevExpress.XtraBars.Ribbon.RecentControlItemControlContainer recentControlItemControlContainer1;
+        private DevExpress.XtraBars.Ribbon.RecentButtonItem recentButtonItem1;
+        private DevExpress.XtraBars.Ribbon.RecentControlContainerItem recentControlContainerItem3;
+        private DevExpress.XtraBars.Ribbon.RecentButtonItem recentButtonItem2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox1;
+        private DevExpress.XtraBars.Ribbon.RecentControlItemControlContainer recentControlItemControlContainer2;
+        private DevExpress.XtraPrinting.Preview.DocumentViewer documentViewer1;
+        private PassProDataSet passProDataSet;
+        private System.Windows.Forms.BindingSource passProDataSetBindingSource;
+        private DevExpress.XtraPrinting.PrintingSystem printingSystem1;
+        private DevExpress.XtraPrinting.PrintableComponentLink printableComponentLink1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private DevExpress.XtraGrid.Columns.GridColumn colProposalID;
+        private DevExpress.XtraBars.Ribbon.RecentLabelItem recentLabelItem3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private DevExpress.XtraBars.Ribbon.RecentStackPanel recentStackPanel5;
+        private DevExpress.XtraBars.Ribbon.RecentItemControl recentItemControl2;
+        private DevExpress.XtraBars.Ribbon.RecentStackPanel recentStackPanel4;
+        private DevExpress.XtraBars.Ribbon.RecentStackPanel recentStackPanel3;
+        private DevExpress.XtraBars.Ribbon.RecentLabelItem recentLabelItem1;
+        private DevExpress.XtraBars.Ribbon.RecentLabelItem recentLabelItem2;
+        private DevExpress.XtraBars.Ribbon.RecentLabelItem recentLabelItem4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label8;
     }
 }

@@ -178,7 +178,7 @@
 
         private MaterialSkin.Controls.MaterialDivider divider;
         private MaterialSkin.Controls.MaterialLabel labelForgotYourPassword;
-        private MaterialSkin.Controls.MaterialLabel labelRegister;
+        public MaterialSkin.Controls.MaterialLabel labelRegister;
         private Login login1;
         private Register register1;
         private System.Windows.Forms.Timer timer1;

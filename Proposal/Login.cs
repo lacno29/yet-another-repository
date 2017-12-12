@@ -37,7 +37,7 @@ namespace Proposal
                 //infoScreen.Close();
                 textFieldPassword.Text = "";
                 SplashScreenManager.ShowForm(typeof(WaitForm1));
-                new Form1().Show();
+                new Form1(0,"admin").Show();
                 new Alert(Alert.AlertType.SUCCESS, "Login Success", null).Show();
                 SplashScreenManager.CloseForm();
 
@@ -50,7 +50,7 @@ namespace Proposal
                     ((Form)this.TopLevelControl).Hide();
                     textFieldPassword.Text = "";
                     SplashScreenManager.ShowForm(typeof(WaitForm1));
-                    new Form1().Show();
+                    new Form1(0, getID(textFieldUsername.Text, textFieldPassword.Text, 0)).Show();
                     new Alert(Alert.AlertType.SUCCESS, "Login Success", null).Show();
                     SplashScreenManager.CloseForm();
                 }
@@ -68,7 +68,7 @@ namespace Proposal
                     ((Form)this.TopLevelControl).Hide();
                     textFieldPassword.Text = "";
                     SplashScreenManager.ShowForm(typeof(WaitForm1));
-                    new Form1().Show();
+                    new Form1(1, getID(textFieldUsername.Text, textFieldPassword.Text, 1)).Show();
                     new Alert(Alert.AlertType.SUCCESS, "Login Success", null).Show();
                     SplashScreenManager.CloseForm();
                 }
@@ -150,6 +150,39 @@ namespace Proposal
                 }
             }
             return false;
+        }
+
+        private String getID(string _username, String _password, int type)
+        {
+            String query;
+            using (SqlConnection myConnection = new SqlConnection(@"Data Source = Sherwin; Initial Catalog = PassPro; Integrated Security = true"))
+            {
+                if (type == 0)
+                {
+                    query = "Select * from tblTeacher where strUsername=@strUsername";
+                }
+                else
+                {
+                    query = "Select * from tblStudent where strUsername=@strUsername";
+                }
+                SqlCommand command = new SqlCommand(query, myConnection);
+                command.Parameters.AddWithValue("@strUsername", _username);
+                myConnection.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        if (type == 0)
+                            return reader["strTeacherID"].ToString();
+                        else
+                            return reader["strStudentID"].ToString();
+                    }
+
+                    myConnection.Close();
+                }
+            }
+
+            return null;
         }
     }
 }
